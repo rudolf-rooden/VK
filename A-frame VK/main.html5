@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene>
+			<!-- assets here-->
+			<a-assets>
+			<img id="out1" src="file:///C:/Users/Student/Desktop/A-frame VK/pictures/out1.JPG">
+			<img id="out2" src="file:///C:/Users/Student/Desktop/A-frame VK/pictures/out2.JPG">
+			</a-assets>
+			<!--rest of the code-->
+			<a-sky src="#out1" rotation="-2.35 -100 -4.770"></a-sky>
+		</a-scene>
+		
+	</body>
+</html>
+		
+	
