@@ -6,8 +6,8 @@
 		<a-scene>
 			<!-- assets here-->
 			<a-assets>
-			<img id="out1" src="file:///C:/Users/Student/Desktop/A-frame VK/pictures/out1.JPG">
-			<img id="out2" src="file:///C:/Users/Student/Desktop/A-frame VK/pictures/out2.JPG">
+			<img id="out1" src="pictures/out1.JPG">
+			<img id="out2" src="pictures/out2.JPG">
 			<!--
 			<audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
 			<img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">
