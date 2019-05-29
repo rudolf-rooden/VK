@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script src="https://aframe.io/releases/0.9.1/aframe.min.js"></script>
+	</head>
+	<body>
+		<a-scene>
+			<!-- assets here-->
+			<a-assets>
+			<img id="out2" src="pictures/õuesB.T.jpg">
+			</a-assets>
+			
+			<!--rest of the code-->
+			<a-sky src="#out2" rotation="-1.1 93 -6.41"></a-sky>
+			
+			<!--camera + cursor-->
+			<a-entity id="camera" camera look-controls>
+				<a-cursor cursor="rayOrigin: mouse" <="" a-cursor="" raycaster="useWorldCoordinates: true; direction: -0.019639451384007703 0.38029119498124 -0.9246582606396138; origin: 0 1.6 2" material="side: back" geometry="">
+					material="color:  #000;  shader:  flat;  opacity:  0.8;  offset:  [object Object];  repeat:  [object Object];  side:  back;  transparent:  true"
+				</a-cursor>
+      		</a-entity>
+			<a-entity geometry="primitive: sphere" position="-21.94 -0.46 -13.07" link="href: out-1.html; peekMode: true"></a-entity>
+		</a-scene>
+		
+	</body>
+</html>
