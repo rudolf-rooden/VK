@@ -12,7 +12,7 @@
 			
 			<!--rest of the code-->
 			<a-sky src="#out1" rotation="-2.35 -100 -4.770"></a-sky>
-			<a-sky src="#out2" rotation="-1.1 93 -6.41"></a-sky>
+			<!-- i needs this line for another file <a-sky src="#out2" rotation="-1.1 93 -6.41"></a-sky> -->
 			
 			<!--camera + cursor-->
 			<a-entity id="camera" camera look-controls>
